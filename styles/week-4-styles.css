@@ -1,0 +1,46 @@
+.title {
+  padding: 3em;
+  margin: 0px;
+  background-color: cadetblue;
+  color: white;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: gray;
+  color: black;
+  padding: .25em;
+  margin-top: 0px;
+  flex-wrap: wrap;
+}
+h3 {
+  color: blue;
+}
+.content-box {
+  float: left;
+  width: 70%;
+  padding-left: 3em;
+  padding-right: .5em;
+}
+.side1 {
+  float: right;
+  width: 20%;
+}
+.side2 {
+  float: right;
+  width: 20%;
+}
+#imgone {
+  float: right;
+  width: 90%
+}
+footer {
+  clear: both;
+  padding: 3em;
+  background-color: grey;
+}
+#imgtwo {
+  display: flex;
+  justify-content: center;
+}
